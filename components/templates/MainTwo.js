@@ -5,9 +5,9 @@ import { FocusRing } from "@react-aria/focus";
 import { motion, useAnimation } from "framer-motion";
 
 const CalculatorPage = () =>  {
-  let [nums, setNums] = useState<number[]>([]);
+  let [nums, setNums] = useState([]);
 
-  function handleClick(num:number) {
+  function handleClick(num) {
     setNums([...nums, num]);
   }
 
@@ -31,9 +31,9 @@ const CalculatorPage = () =>  {
   );
 }
 
-function Button({ onClick, children }:any) {
+function Button({ onClick, children }) {
   let controls = useAnimation();
-  let ref = React.useRef() as React.MutableRefObject<HTMLInputElement>;
+  let ref = useRef();
   let { buttonProps } = useButton(
     {
       onPressStart: () => {
