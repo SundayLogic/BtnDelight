@@ -8,6 +8,7 @@ const Home: NextPage = () => {
       <Head>
         <title>BtnDelight</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href='/site.manifest'/>
       </Head>
       <main>
         <MainTwo />
