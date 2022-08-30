@@ -1,12 +1,13 @@
+import React from "react";
 import { useButton } from "@react-aria/button";
 import { useRef, useState } from "react";
 import { FocusRing } from "@react-aria/focus";
 import { motion, useAnimation } from "framer-motion";
 
-const CalculatorPage = () => {
-  let [nums, setNums] = useState<any[]>([]);
+const CalculatorPage = () =>  {
+  let [nums, setNums] = useState<number[]>([]);
 
-  function handleClick(num: any) {
+  function handleClick(num:number) {
     setNums([...nums, num]);
   }
 
@@ -28,11 +29,11 @@ const CalculatorPage = () => {
       </div>
     </div>
   );
-};
+}
 
-function Button({ onClick, children }: any) {
+function Button({ onClick, children }:any) {
   let controls = useAnimation();
-  let ref = useRef();
+  let ref = React.useRef() as React.MutableRefObject<HTMLInputElement>;
   let { buttonProps } = useButton(
     {
       onPressStart: () => {
@@ -65,4 +66,4 @@ function Button({ onClick, children }: any) {
     </FocusRing>
   );
 }
-export default CalculatorPage;
+export default CalculatorPage
