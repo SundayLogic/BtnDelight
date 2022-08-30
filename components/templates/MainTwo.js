@@ -3,14 +3,11 @@ import { useButton } from "@react-aria/button";
 import { useRef, useState } from "react";
 import { FocusRing } from "@react-aria/focus";
 import { motion, useAnimation } from "framer-motion";
-import {BackspaceIcon} from "@heroicons/react/24/outline"
 const CalculatorPage = () =>  {
   let [nums, setNums] = useState([]);
 
   function handleClick(num) {
-    console.log(nums)
     setNums([...nums, num]);
-    console.log(nums)
   }
   const clearDisplay = () => setNums([]);
   return (
@@ -28,9 +25,7 @@ const CalculatorPage = () =>  {
         <Button onClick={() => handleClick(1)}>1</Button>
         <Button onClick={() => handleClick(2)}>2</Button>
         <Button onClick={() => handleClick(3)}>3</Button>
-
         <Button onClick={() => clearDisplay()}>AC</Button>
-        <Button onClick={() => handleClick([])}>Del</Button>
       </div>
     </div>
   );
