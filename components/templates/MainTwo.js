@@ -15,7 +15,7 @@ const CalculatorPage = () =>  {
       <div className="ml-auto text-8xl font-extralight tabular-nums text-white">
         {nums.length ? nums.slice(-3).join("") : 0}
       </div>
-      <div className="flex flex-wrap justify-end gap-4 bg-orange-200/5 pt-10 pb-10 mb-5">
+      <div className="flex flex-wrap justify-end gap-4 pt-10 pb-10 mb-10">
         <Button onClick={() => handleClick(7)}>7</Button>
         <Button onClick={() => handleClick(8)}>8</Button>
         <Button onClick={() => handleClick(9)}>9</Button>
