@@ -60,6 +60,11 @@
   dependencies:
     "tslib" "2.4.0"
 
+"@heroicons/react@^2.0.8":
+  "integrity" "sha512-nJNOMjXQH0Ngk6Y7QllYBH5VLB3+HMJyGBVQPZYUXGalYmN9kgEcVIxMjOiVjwuzee0GvZzmMRB0VQRJPHe8eg=="
+  "resolved" "https://registry.npmjs.org/@heroicons/react/-/react-2.0.8.tgz"
+  "version" "2.0.8"
+
 "@internationalized/date@^3.0.1":
   "integrity" "sha512-E/3lASs4mAeJ2Z2ye6ab7eUD0bPUfTeNVTAv6IS+ne9UtMu9Uepb9A1U2Ae0hDr6WAlBuvUtrakaxEdYB9TV6Q=="
   "resolved" "https://registry.npmjs.org/@internationalized/date/-/date-3.0.1.tgz"
@@ -1758,7 +1763,7 @@
     "loose-envify" "^1.1.0"
     "scheduler" "^0.22.0"
 
-"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.0.0", "react@^18.1.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.1.0":
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.1.0":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"

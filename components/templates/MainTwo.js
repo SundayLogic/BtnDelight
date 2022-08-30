@@ -3,20 +3,22 @@ import { useButton } from "@react-aria/button";
 import { useRef, useState } from "react";
 import { FocusRing } from "@react-aria/focus";
 import { motion, useAnimation } from "framer-motion";
-
+import {BackspaceIcon} from "@heroicons/react/24/outline"
 const CalculatorPage = () =>  {
   let [nums, setNums] = useState([]);
 
   function handleClick(num) {
+    console.log(nums)
     setNums([...nums, num]);
+    console.log(nums)
   }
-
+  const clearDisplay = () => setNums([]);
   return (
     <div className="mx-auto flex min-h-screen max-w-xs flex-col items-center justify-center p-6">
       <div className="ml-auto text-8xl font-extralight tabular-nums text-white">
         {nums.length ? nums.slice(-3).join("") : 0}
       </div>
-      <div className="mt-9 flex flex-wrap justify-between gap-4">
+      <div className="mt-9 flex flex-wrap justify-end gap-4">
         <Button onClick={() => handleClick(7)}>7</Button>
         <Button onClick={() => handleClick(8)}>8</Button>
         <Button onClick={() => handleClick(9)}>9</Button>
@@ -26,6 +28,9 @@ const CalculatorPage = () =>  {
         <Button onClick={() => handleClick(1)}>1</Button>
         <Button onClick={() => handleClick(2)}>2</Button>
         <Button onClick={() => handleClick(3)}>3</Button>
+
+        <Button onClick={() => clearDisplay()}>AC</Button>
+        <Button onClick={() => handleClick([])}>Del</Button>
       </div>
     </div>
   );
@@ -67,3 +72,5 @@ function Button({ onClick, children }) {
   );
 }
 export default CalculatorPage
+
+
