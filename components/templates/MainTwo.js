@@ -25,7 +25,7 @@ const CalculatorPage = () =>  {
         <Button onClick={() => handleClick(1)}>1</Button>
         <Button onClick={() => handleClick(2)}>2</Button>
         <Button onClick={() => handleClick(3)}>3</Button>
-        <Button onClick={() => clearDisplay()}>AC</Button>
+        <Button onClick={() => clearDisplay()}>C</Button>
       </div>
     </div>
   );
