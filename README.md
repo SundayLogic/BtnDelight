@@ -1,27 +1,81 @@
-# Next.js + Tailwind CSS Example
+# Button Delight
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Description
+Kodak is a TypeScript-based project focusing on building an application using Next.js, React, and other modern web technologies. The project has a structured approach based on atomic design principles with different components divided into atoms, molecules, organisms, pages, and templates.
 
-## Deploy your own
+![StreetComplete](http://www.westnordost.de/streetcomplete/featureGraphic.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Screenshots
+<img src="metadata/en/images/phoneScreenshots/screenshot1.png" width="240"/> <img src="metadata/en/images/phoneScreenshots/screenshot2.png" width="240"/> <img src="metadata/en/images/phoneScreenshots/screenshot3.png" width="240"/> <img src="metadata/en/images/phoneScreenshots/screenshot4.png" width="240"/> <img src="metadata/en/images/phoneScreenshots/screenshot5.png" width="240"/> <img src="metadata/en/images/phoneScreenshots/screenshot6.png" width="240"/> <img src="metadata/en/images/phoneScreenshots/screenshot7.png" width="240"/> <img src="metadata/en/images/phoneScreenshots/screenshot8.png" width="240"/>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Technologies Used
 
-## How to use
+[<img src="https://th.bing.com/th/id/R.8075e9fb9d9e4d38ab81dae248c6dbd0?rik=m8wEkmr8R1U1gA&riu=http%3a%2f%2fpnbmobile.com%2fimages%2ftypescript_logo.png&ehk=wde0lVRVQLeiYmCgdeE%2bTbW2qlCyP7smtUsY5bfYKwI%3d&risl=&pid=ImgRaw&r=0" alt="TS" height="80">](https://play.google.com/store/apps/details?id=de.westnordost.streetcomplete)[<img src="https://codekitapp.com/images/help/free-tailwind-icon@2x.png" alt="tailwind" height="80">](https://play.google.com/store/apps/details?id=de.westnordost.streetcomplete)[<img src="https://th.bing.com/th/id/R.1f27d28017b7708d3f46fd8d1af4a383?rik=r7M8QVqKuyXS6Q&pid=ImgRaw&r=0" alt="React" height="80">](https://f-droid.org/packages/de.westnordost.streetcomplete/)[<img src="https://th.bing.com/th/id/R.6338e3b1fefffb51443e613edd2a6b19?rik=f%2bt%2bkI5dWoUOoA&riu=http%3a%2f%2ftutomarks.fr%2fuploads%2fimages%2ftags%2fnextjs2.png&ehk=hhZGjKQq20ItXrK2%2fYZOVaUmSR%2ff21ec8Dumiw3n3to%3d&risl=&pid=ImgRaw&r=0" alt="Next" height="80">](https://github.com/streetcomplete/StreetComplete/releases/latest)[<img src="https://th.bing.com/th/id/OIP.DjyyR-WqcyVc6nYaLA2XawAAAA?pid=ImgDet&rs=1" alt="vercel" height="80">](https://github.com/streetcomplete/StreetComplete/releases/latest)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
+## Installation Instructions
+To get started with the Kodak project, follow these steps:
+1. Clone the repository:
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+git clone https://github.com/SundayLogic/Kodak.git
 ```
-
+2. Navigate to the project directory:
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+cd Kodak
 ```
-
+3. Install the necessary dependencies:
 ```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+npm install
 ```
+or if you are using yarn:
+```bash
+yarn install
+```
+## Usage/Code Examples
+Once the installation is complete, you can run the following commands:
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+&middot; To start the development server:
+```bash
+npm run dev
+```
+or
+```bash
+yarn dev
+```
+&middot; To build the application:
+```bash
+npm run build
+```
+or
+```bash
+yarn build
+```
+&middot; To start the application:
+```bash
+npm run start
+```
+or
+```bash
+yarn start
+```
+For more detailed usage and code examples, please refer to the individual component directories.
+
+## Quests
+
+There are quite a few different quest types now and more will be added over time.
+
+* 🐛 [Test and report issues](CONTRIBUTING.md#testing-and-reporting-issues)
+* 📃 [Translate the app into your language](CONTRIBUTING.md#translating-the-app)
+* 🕵️ [Solve notes left by StreetComplete users](CONTRIBUTING.md#solving-notes)
+* 💡 [Suggest new quests](CONTRIBUTING.md#suggesting-new-quests), or, even better, [implement them](CONTRIBUTING.md#developing-new-quests).
+* ➕ [and more…](CONTRIBUTING.md)
+
+Also, if you like StreetComplete, **spread the word**! ❤️
+
+## Credits/Inspiration/Alternatives
+This project is inspired by modern web development practices and aims to implement them using TypeScript and Next.js.
+
+## License
+
+This software is released under the terms of the [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html).
+
+
